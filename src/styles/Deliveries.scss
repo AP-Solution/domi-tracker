@@ -1,0 +1,122 @@
+.deliveries {
+  padding: 20px;
+
+  .deliveries-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    .form-row {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+
+      .form-group {
+        flex: 1;
+        min-width: 200px;
+
+        label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: 500;
+        }
+
+        input, select {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          font-size: 14px;
+
+          &:focus {
+            outline: none;
+            border-color: #007bff;
+          }
+        }
+      }
+    }
+
+    .submit-btn {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+
+      &:hover {
+        background: #0056b3;
+      }
+    }
+  }
+
+  .deliveries-list {
+    .delivery-item {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+
+      .delivery-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .timestamp {
+          color: #666;
+          font-size: 14px;
+        }
+      }
+
+      .delivery-details {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+
+        .detail-item {
+          .label {
+            font-weight: 500;
+            margin-bottom: 5px;
+          }
+
+          .value {
+            color: #333;
+          }
+        }
+      }
+
+      .amount-edit {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+
+        input {
+          padding: 5px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          width: 100px;
+        }
+
+        button {
+          background: #28a745;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 4px;
+          cursor: pointer;
+
+          &:hover {
+            background: #218838;
+          }
+        }
+      }
+    }
+  }
+}
