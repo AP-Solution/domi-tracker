@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/domi-tracker/static/css/main.24acbaeb.css",
-    "main.js": "/domi-tracker/static/js/main.16c92c36.js",
+    "main.css": "/domi-tracker/static/css/main.4b17cf37.css",
+    "main.js": "/domi-tracker/static/js/main.d6a50cdd.js",
     "index.html": "/domi-tracker/index.html",
-    "main.24acbaeb.css.map": "/domi-tracker/static/css/main.24acbaeb.css.map",
-    "main.16c92c36.js.map": "/domi-tracker/static/js/main.16c92c36.js.map"
+    "main.4b17cf37.css.map": "/domi-tracker/static/css/main.4b17cf37.css.map",
+    "main.d6a50cdd.js.map": "/domi-tracker/static/js/main.d6a50cdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.24acbaeb.css",
-    "static/js/main.16c92c36.js"
+    "static/css/main.4b17cf37.css",
+    "static/js/main.d6a50cdd.js"
   ]
 }
