@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/domi-tracker/static/css/main.24acbaeb.css",
+    "main.js": "/domi-tracker/static/js/main.16c92c36.js",
+    "index.html": "/domi-tracker/index.html",
+    "main.24acbaeb.css.map": "/domi-tracker/static/css/main.24acbaeb.css.map",
+    "main.16c92c36.js.map": "/domi-tracker/static/js/main.16c92c36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24acbaeb.css",
+    "static/js/main.16c92c36.js"
+  ]
+}
